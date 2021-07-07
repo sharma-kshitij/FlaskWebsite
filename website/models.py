@@ -1,6 +1,6 @@
 from . import db
 from flask_login import UserMixin
-from sqlalchey import func
+from sqlalchemy import func
 
 
 class Note(db.Model):
